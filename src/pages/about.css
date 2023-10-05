@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Roboto&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    background-color: #8c52ff;
+    grid-template-areas:
+    "a b"
+    "c d";
+    align-items: start;
+}
+
+.dogs {
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+.image-swapper {
+    margin-top: 20px;
+}
+  
+.image-container {
+    margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    padding-top: 150px;
+    height: 100vh;
+    background-color: #8c52ff;
+}
+
+.list-group-head {
+    font-weight: lighter;
+    padding-bottom: 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.list-group-item {
+    font-size: 18px;
+    font-weight: 300;
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.listcon {
+    display: flex;
+    padding-right: 45px;
+    text-align: center;
+    background-color: rgb(28,25,26);
+    color: #ffffff;
+    border-radius: 10px;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.listcon li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #8c52ff;
+}
+
+.dogtxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bubble-box {
+    font-weight: lighter;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(28,25,26);
+    border: 6px solid rgb(28,25,26);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    margin-left: 0px;
+}
+
+.bubble-box-und {
+    margin-left: 0px;
+    width: fit-content;
+    font-weight: lighter;
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(28,25,26);
+    border: 6px solid rgb(28,25,26);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.bubble-box-und2 {
+    width: fit-content;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    display: flex;
+    font-size: 20px;
+    margin-right: 30px;
+    background-color: rgb(28,25,26);
+    border: 6px solid rgb(28,25,26);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.card-text {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;;
+    font-size: 17px;
+    line-height: 1.25;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}

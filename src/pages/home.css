@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Roboto&family=Tilt+Prism&display=swap');
+
+.welcome {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: #ccc;
+    font-size: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.subtex {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ccc;
+    font-size: 30px;
+    padding-bottom: 900px;
+    font-family: 'Josefin Sans', sans-serif;
+}
